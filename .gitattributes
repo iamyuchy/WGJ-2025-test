@@ -1,3 +1,8 @@
+*.dylib filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+dsymutil filter=lfs diff=lfs merge=lfs -text
+.so filter=lfs diff=lfs merge=lfs -text
+Library/PackageCache/com.unity.burst@6aff1dd08a0c/.Runtime/libburst-llvm-19.dylib filter=lfs diff=lfs merge=lfs -text
 *.md filter=lfs diff=lfs merge=lfs -text
 *.json filter=lfs diff=lfs merge=lfs -text
 *.inputactions filter=lfs diff=lfs merge=lfs -text
@@ -1938,7 +1943,6 @@
 /Library/Bee/CachedNodeOutput/f053eebbf087eb97957adc27d59d93a3_out filter=lfs diff=lfs merge=lfs -text
 *.state filter=lfs diff=lfs merge=lfs -text
 *.txt filter=lfs diff=lfs merge=lfs -text
-*.dll filter=lfs diff=lfs merge=lfs -text
 *.mvfrm filter=lfs diff=lfs merge=lfs -text
 *.rsp filter=lfs diff=lfs merge=lfs -text
 *.pdb filter=lfs diff=lfs merge=lfs -text
@@ -1993,7 +1997,6 @@
 /Library/PackageCache/com.unity.burst@6aff1dd08a0c/.Runtime/hostlin/llvm-lipo filter=lfs diff=lfs merge=lfs -text
 /Library/PackageCache/com.unity.burst@6aff1dd08a0c/.Runtime/hostmac/dsymutil filter=lfs diff=lfs merge=lfs -text
 /Library/PackageCache/com.unity.burst@6aff1dd08a0c/.Runtime/hostmac/llvm-lipo filter=lfs diff=lfs merge=lfs -text
-*.dylib filter=lfs diff=lfs merge=lfs -text
 *.a filter=lfs diff=lfs merge=lfs -text
 *.lib filter=lfs diff=lfs merge=lfs -text
 *.xml filter=lfs diff=lfs merge=lfs -text
